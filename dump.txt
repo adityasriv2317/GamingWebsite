@@ -1,0 +1,62 @@
+.header{
+
+    font-family: "Afacad Flux", sans-serif;
+ 
+ 
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+
+    z-index: 10;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#uno{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    
+
+    /* overflow: hidden;
+    position: fixed; */
+
+    /* position: relative;
+    z-index: 1; */
+}
+
+#uno a{
+    padding-right: 1vw;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 0;
+    /* padding-bottom: 6vw; */
+    display: block;
+}
+
+#uno a:visited{
+    color: white;
+}
+
+#uno li{
+    padding-right: 1vw;
+    float: left;
+}
+
+#uno td:last-child{
+    padding-right: 1vw;
+}
+
+#logoimg {
+    height: 50px;
+    margin-top: .5vh;
+    margin-bottom: auto;
+}
