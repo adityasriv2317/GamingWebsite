@@ -1,0 +1,92 @@
+body{
+    background-color: #171d25;
+
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.header{
+    background-color: rgb(0, 132, 0);
+    height: 8vh;
+    /* width: 100%; */
+    box-shadow: 0 0 1vh white;
+
+    padding: 1vh 7%;
+
+    font-size: 1.2em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: margin .4s ease;
+    /* background-color: white; */
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* headlinks - logo + library */
+#headlinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* logo  */
+
+#headlinks table{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+    padding-right: 2vw;
+}
+
+#logoimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 8vh;
+}
+
+#logotxt{
+    padding-left: 1.5vw;
+    color: white;
+    font-size: 2em;
+}
+
+#logo:hover{
+    text-decoration: none;
+}
+
+/* headright user + search */
+.headright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.fline{
+    height: 1px;
+    margin: 0 8% auto;
+    background-color: white;
+}
+
+.flinks li{
+    list-style: none;
+}
