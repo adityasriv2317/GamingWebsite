@@ -12,18 +12,20 @@ body{
     /* width: 100%; */
     box-shadow: 0 0 1vh white;
 
-    padding: 1vh 7%;
+    padding: 1vh 0;
 
     font-size: 1.2em;
+}
 
+#logo{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
 a{
     text-decoration: none;
     color: white;
-    transition: margin .4s ease;
     /* background-color: white; */
 }
 
@@ -31,14 +33,24 @@ a:hover{
     text-decoration: underline;
 }
 
-/* headlinks - logo + library */
-#headlinks{
+/* logo  */
+
+#logoimg{
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 8vh;
 }
 
-/* logo  */
+#logotxt{
+    padding-right: 1vw;
+    color: white;
+    font-size: 2em;
+}
+
+#logo:hover{
+    text-decoration: none;
+}
 
 #headlinks table{
     display: flex;

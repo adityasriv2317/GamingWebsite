@@ -28,7 +28,6 @@ body{
 .header a{
     text-decoration: none;
     color: white;
-    transition: margin .4s ease;
     /* background-color: white; */
 }
 
@@ -79,6 +78,10 @@ body{
     align-items: center;
 }
 
+#searchline{
+    margin-left: 1vw;
+}
+
 /* corousel */
 
 .corousel{
@@ -92,139 +95,6 @@ body{
     margin-bottom: 0;
     background-color: rgb(46, 46, 46);
 }
-
-/* corousel slide */
-.cslide{
-    height: 45vh;
-    position: relative;
-    
-}
-
-.cslide .clist .cgame{
-    position: absolute;
-
-    inset: 0 0 0 0;
-    overflow: hidden;
-
-    opacity: 0;
-    transition: .5s ease;
-}
-
-.cslide .clist .cgame img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.gdata{
-    text-shadow: 0 0 20px black;
-}
-
-.cslide .clist .cgame .gdata{
-    position: absolute;
-    top: 0;
-    left: 7%;
-
-    z-index: 1;
-
-    color: white;
-    font-size: 3em;
-}
-
-.cslide .clist .cgame.active{
-    opacity: 1;
-    z-index: 10;
-}
-
-/* cbuttons */
-
-.cbutton{
-    position: absolute;
-    top: 2vh;
-    right: 8%;
-
-    z-index: 20;
-}
-
-.cbutton button{
-    background-color: rgb(255, 255, 255);
-    color: rgb(1, 90, 1);
-    border: none;
-
-    border-radius: .2em;
-
-    z-index: 18;
-
-    font-family: sans-serif;
-    text-align: center;
-
-    width: 4vw;
-    height: 4vw;
-
-    font-size: 3vw;
-    transition: background-color .5s ease, color .5s ease;
-}
-
-.cbutton button:hover{
-    /* color: rgb(19, 65, 31); */
-    /* background-color: rgb(116, 255, 116); */
-    background-color: rgb(0, 132, 0);
-    color: white;
-}
-
-/* cover images */
-.gcover{
-    /* position: absolute; */
-    /* position: fixed; */
-    /* bottom: 10 px; */
-    /* margin: 0 8% auto; */
-    /* margin-left: 8%; */
-
-    margin-top: 2%;
-
-    /* z-index: 11; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-    
-    max-width: 84%;
-    color: white;
-    /* padding: 0 50px; */
-
-    padding-left: 8%;
-    padding-right: 8%;
-
-    /* overflow: auto; */
-}
-
-.gcover .cgame{
-    display: flex;
-    flex-shrink: 0;
-    
-}
-
-.gcover .cgame img{
-    /* margin-top: 1%; */
-    width: 20vw;
-    height: 12vw;
-
-    /* margin-bottom: 1px; */
-
-    border-radius: 0.3rem;
-    /* margin-left: 4%;
-    margin-right: 4%; */
-}
-
-.gcover .cgame img.active{
-    border: 2px solid white;
-    /* margin-left: 0px; */
-    width: 22vw;
-}
-/* 
-.gcover .cgame img:last-child{
-    margin-right: 0;
-} */
 
 h2{
     background-color: crimson;
