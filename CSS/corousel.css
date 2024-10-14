@@ -1,5 +1,19 @@
-
 /* corousel slide */
+
+.corousel{
+    width: 100%;
+
+    color: black;
+}
+
+.corousel h1{
+    margin: 1% 0 0.5% 7%;
+
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+
 .cslide{
     height: 45vh;
     position: relative;
@@ -24,6 +38,7 @@
 
 .gdata{
     text-shadow: 0 0 20px black;
+    margin-top: 2vh;
 }
 
 .cslide .clist .cgame .gdata{
@@ -62,10 +77,11 @@
     z-index: 18;
 
     font-family: sans-serif;
-    text-align: center;
 
     width: 4vw;
     height: 4vw;
+
+    text-align: center;
 
     font-size: 3vw;
     transition: background-color .5s ease, color .5s ease;
@@ -125,7 +141,7 @@
 .gcover .cgame img.active{
     border: 2px solid white;
     /* margin-left: 0px; */
-    width: 22vw;
+    /* width: 22vw; */
 }
 /* 
 .gcover .cgame img:last-child{
