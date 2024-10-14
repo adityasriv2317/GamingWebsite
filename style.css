@@ -113,7 +113,7 @@ footer{
     /* width: 100%; */
 }
 
-footer a{
+.footer a{
     color: white;
     text-decoration: none;
 }

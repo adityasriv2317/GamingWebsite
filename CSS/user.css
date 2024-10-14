@@ -12,9 +12,10 @@ body{
     /* width: 100%; */
     box-shadow: 0 0 1vh white;
 
-    padding: 1vh 0;
+    padding: 1vh;
+    padding-bottom: 1.7vh;
 
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #logo{
@@ -86,6 +87,34 @@ a:hover{
     align-items: center;
 }
 
+/* get user login */
+
+.logintxt{
+    margin-top: 6%;
+    text-align: center;
+}
+
+.getlogin{
+    background-color: rgba(0, 128, 0, 0.464);
+
+    margin: 2% 8% auto;
+    margin-bottom: 6%;
+
+    border: none;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.vline{
+    background-color: white;
+    width: 2px;
+    border-radius: 2px;
+}
+
 /* footer */
 footer{
     text-align: center;
@@ -97,6 +126,19 @@ footer{
     height: 1px;
     margin: 0 8% auto;
     background-color: white;
+}
+
+.footer a{
+    margin-bottom: 1v2;
+}
+
+.flinks{
+    display: flex;
+    align-items: center;
+    max-width: 84%;
+    margin: 0 8% auto;
+    padding: 0;
+    justify-content: space-evenly;
 }
 
 .flinks li{
