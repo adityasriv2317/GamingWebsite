@@ -95,7 +95,7 @@ body{
 
 /* corousel slide */
 .cslide{
-    height: 35vh;
+    height: 45vh;
     position: relative;
     
 }
@@ -116,10 +116,14 @@ body{
     object-fit: cover;
 }
 
+.gdata{
+    text-shadow: 0 0 20px black;
+}
+
 .cslide .clist .cgame .gdata{
     position: absolute;
     top: 0;
-    left: 8%;
+    left: 7%;
 
     z-index: 1;
 
@@ -149,13 +153,15 @@ body{
 
     border-radius: .2em;
 
+    z-index: 18;
+
     font-family: sans-serif;
     text-align: center;
 
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
 
-    font-size: 4vw;
+    font-size: 3vw;
     transition: background-color .5s ease, color .5s ease;
 }
 
@@ -179,8 +185,9 @@ body{
     /* z-index: 11; */
     display: flex;
     justify-content: center;
-
-    /* gap: 2vw; */
+    align-items: center;
+    gap: 2vw;
+    
     max-width: 84%;
     color: white;
     /* padding: 0 50px; */
@@ -194,9 +201,10 @@ body{
 .gcover .cgame{
     display: flex;
     flex-shrink: 0;
+    
 }
 
-.gcover img{
+.gcover .cgame img{
     /* margin-top: 1%; */
     width: 20vw;
     height: 12vw;
@@ -204,14 +212,19 @@ body{
     /* margin-bottom: 1px; */
 
     border-radius: 0.3rem;
-    margin-right: 2vw;
+    /* margin-left: 4%;
+    margin-right: 4%; */
 }
 
-.gcover .cgame.active img{
+.gcover .cgame img.active{
     border: 2px solid white;
-
+    /* margin-left: 0px; */
     width: 22vw;
 }
+/* 
+.gcover .cgame img:last-child{
+    margin-right: 0;
+} */
 
 h2{
     background-color: crimson;
