@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login|SignUp - XERO</title>
+    <title>Login | SignUp - XERO</title>
     <link rel="stylesheet" href="CSS/user.css">
     <link rel="stylesheet" href="CSS/ulogin.css">
 </head>
@@ -23,19 +23,23 @@
         <div class="fline"></div>
 
         <div class="logintxt">
-            <h2>Verify to Purchase Games</h2>
+            <h2>Register to Purchase Games</h2>
         </div>
     
         <div class="getlogin">
             
             <div class="new">
-                <b>Create an account</b><hr><br>
+                <b>Register Now</b><hr><br>
                 <form action="#" class="nuser">
-                    <label for="fname" id="inplabel">First Name</label><br>
-                    <input type="text" name="fname" id="fname"><br>
-
-                    <label for="lname" id="inplabel">Last Name</label><br>
-                    <input type="text" name="lname" id="lname"><br>
+                    <div class="a">
+                        <label for="fname" id="inplabel">First Name</label>
+                        <label for="lname" id="inplabel">Last Name</label>
+                    </div>
+                    
+                    <div class="a">
+                        <input type="text" name="fname" id="fname">
+                        <input type="text" name="lname" id="lname">
+                    </div>                    
 
                     <label for="umail" id="inplabel">Email ID</label><br>
                     <input type="text" name="umail" id="umail"><br>
@@ -46,20 +50,20 @@
                     <label for="cpass" id="inplabel">Confirm Password</label><br>
                     <input type="text" name="cpass" id="cpass"><br>
 
-                    <button>Sign Up</button>
+                    <button id="btn">Sign Up</button>
                 </form>
             </div>
     
             <div class="vline"></div>
     
             <div class="old">
-                <b>Already regestired?</b><hr><br>
+                <b>Already Registered?</b><hr><br>
                 <form action="#" class="ouser">
                     <label for="umail" id="inplabel">Email ID</label><br>
                     <input type="text" name="umail" id="umail"><br>
 
                     <label for="upass" id="inplabel">Password</label><br>
-                    <input type="text" name="upass" id="upass"><br>
+                    <input type="text" name="opass" id="opass"><br>
 
                     <button>Login</button>
                 </form>
@@ -75,10 +79,12 @@
         <p>&copy; 2024 XERO Gaming. All Rights Reserved.</p>
         <a href="#">Go to Top</a>
         <ul class="flinks">
-            <li><a href="destination.html">Destinations</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="index.html">Home - XERO</a></li>
+            <li><a href="index.html#">Featured</a></li>
+            <li><a href="index.html#str">Top-Rated</a></li>
         </ul>
     </footer>
+
+    <script src="JS/newlogin.js"></script>
 </body>
 </html>

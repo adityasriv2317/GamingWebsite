@@ -39,6 +39,8 @@
     padding-top: 1%;
     padding-bottom: 1%;
 
+    padding-left: 5vw;
+    padding-right: 5vw;
     
     box-shadow: 0 4px 10px black;
 }
@@ -52,19 +54,29 @@
     align-items: center;
     justify-content: center;
 
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .nuser label{
     margin-top: 20%;
 }
 
+.a{
+    display: flex;
+}
+
+.a input{
+    margin-right: 5%;
+}
+
 input{
-    width: 97%;
+    width: 45%;
     margin-top: 1vh;
     height: 3vh;
     margin-bottom: 2vh;
+
+    border: none;
 }
 
 button{
@@ -86,11 +98,7 @@ button{
 .new, .old{
     margin-bottom: 1%;
     font-weight: 500;
-
-    margin-left: 5vw;
-    margin-right: 5vw;
 }
-
 
 button:hover{
     background-color: rgb(41, 190, 41);
