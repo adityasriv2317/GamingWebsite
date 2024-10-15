@@ -107,3 +107,70 @@ button:hover{
     text-shadow: 0 0 12px black;
     box-shadow: 0 0 10px black;
 }
+
+.a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a label{
+    margin-top: 0;
+    margin-left: 0;
+    /* margin-right: 20%; */
+    justify-content: space-evenly;
+
+    float: left;
+}
+
+.a input{
+    width: 100%;
+    margin-right: 0;
+}
+
+.a input:last-child{
+    margin-right: 0;
+}
+
+#fname{
+    width: 95%;
+    margin-right: 5%;
+}
+
+#lname{
+    width: 95%;
+    margin-left: 5%;
+}
+
+#umail{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.pfield{
+    position: relative;
+    display: inline-block;
+
+    width: 90%;
+}
+
+.pfield input{
+    width: 90%;
+
+    float: right;
+}
+
+.pfield img{
+    position: absolute;
+    top: 10px;
+    right: 2px;
+
+    z-index: 15;
+
+    width: 20px;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
