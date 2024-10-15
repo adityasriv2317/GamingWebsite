@@ -3,6 +3,8 @@
     margin: 0 6% auto;
     margin-bottom: 4vh;
 
+    padding-bottom: 2vh;
+
     background-color: red;
     color: rgb(0, 0, 0);
 
@@ -56,3 +58,34 @@
     margin-left: 1vw;
 }
 
+/* star */
+
+.rating{
+    display: flex;
+
+    margin-left: 1vw;
+}
+
+.rategame .rgame .s img{
+    position: absolute;
+
+    width: 2vw;
+    height: 3vh;
+
+    box-shadow: none;
+    /* object-fit: cover; */
+}
+
+.s{
+    margin-right: 0.5vw;
+    width: 2vw;
+    height: 3vh;
+}
+
+.simg.empty{
+    display: block;
+}
+
+.simg.full{
+    display: none;
+}
