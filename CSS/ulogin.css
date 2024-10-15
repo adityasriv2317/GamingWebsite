@@ -1,0 +1,101 @@
+
+/* get user login */
+
+.bgm{
+    background-image: url("b.jpg");
+    background-size: cover;
+    background-repeat: none;
+}
+
+.logintxt{
+    margin-top: 6%;
+    text-align: center;
+    text-align: 300;
+}
+
+.logintxt h2{
+    font-weight: 400;
+    font-size: 2em;
+    text-shadow: 0 0 12px rgb(0, 27, 9);
+}
+
+.getlogin b{
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+}
+
+.getlogin{
+    background-color: rgba(0, 48, 0, 0.578);
+
+    margin: 2% 8% auto;
+    margin-bottom: 6%;
+
+    border: none;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    
+    box-shadow: 0 4px 10px black;
+}
+
+.vline{
+    background-color: white;
+    width: 2px;
+    border-radius: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nuser label{
+    margin-top: 20%;
+}
+
+input{
+    width: 97%;
+    margin-top: 1vh;
+    height: 3vh;
+    margin-bottom: 2vh;
+}
+
+button{
+    border: none;
+
+    margin-top: 1vh;
+    width: 100%;
+
+    padding: 1vh;
+    align-items: center;
+
+    background-color: green;
+    color: white;
+
+    
+    box-shadow: 0 0 10px black;
+}
+
+.new, .old{
+    margin-bottom: 1%;
+    font-weight: 500;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
+button:hover{
+    background-color: rgb(41, 190, 41);
+    font-weight: 500;
+    
+    text-shadow: 0 0 12px black;
+    box-shadow: 0 0 10px black;
+}

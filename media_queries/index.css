@@ -1,0 +1,47 @@
+@media (max-width: 640px) {
+    /* header  */
+
+    .header{
+        padding: 1vh 5%;
+
+        transition: 0.2s ease;
+        /* background-color: red; */
+    }
+
+    #liblink{
+        display: none;
+    }
+
+    .headright{
+        display: none;
+    }
+
+    #logoimg{
+        height: 6vh;
+        transition: 0.2s ease;
+    }
+
+    /* footer */
+
+    footer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .flinks{
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* justify-content: center; */
+    }
+
+    .flinks{
+        padding-left: 0;
+    }
+}
+
+/* corousel */
+
+@media (max-width: 640px){
+
+}

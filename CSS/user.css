@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #171d25;
 
@@ -10,10 +14,9 @@ body{
     background-color: rgb(0, 132, 0);
     height: 8vh;
     /* width: 100%; */
-    box-shadow: 0 0 1vh white;
+    box-shadow: 0 0 1vh rgba(255, 255, 255, 0.7);
 
     padding: 1vh;
-    padding-bottom: 1.7vh;
 
     font-size: 1em;
 }
@@ -85,34 +88,6 @@ a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-/* get user login */
-
-.logintxt{
-    margin-top: 6%;
-    text-align: center;
-}
-
-.getlogin{
-    background-color: rgba(0, 128, 0, 0.464);
-
-    margin: 2% 8% auto;
-    margin-bottom: 6%;
-
-    border: none;
-
-    display: flex;
-    justify-content: space-around;
-
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-.vline{
-    background-color: white;
-    width: 2px;
-    border-radius: 2px;
 }
 
 /* footer */
