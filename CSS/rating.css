@@ -1,0 +1,58 @@
+.stardiv{
+    width: 88%;
+    margin: 0 6% auto;
+    margin-bottom: 4vh;
+
+    background-color: red;
+    color: rgb(0, 0, 0);
+
+    border-radius: 0.5rem;
+}
+
+.stardiv h1{
+    margin: 3% 0 0 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+
+.rategame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 84%;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.rategame .rgame img{
+    width: 20vw;
+    height: 22vh;
+
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 10px black;
+
+    margin-right:  2vw;
+    margin-bottom: 1.5vh;
+}
+
+.rategame .rgame:last-child img{
+    margin-right: 0;
+}
+
+.rgame .rdata{
+    font-weight: 500;
+    font-size: 1.3em;
+
+    color: white;
+    text-shadow: 0 1px 10px black;
+
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+}
+
