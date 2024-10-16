@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function(){
     let p = document.querySelectorAll('.psf')
     let e = document.querySelectorAll('.eye')
 

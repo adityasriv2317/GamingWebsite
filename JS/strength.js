@@ -1,12 +1,14 @@
 document.addEventListener('DOMContentLoaded', function(){
     let inp = document.getElementById('upass')
     let tick = document.querySelectorAll('#pst')
-    let strength = document.querySelector('.str')
+    let strength = document.getElementById('str')
 
     let minch = false
     let capch = false
     let numch = false
     let ctrch = false
+
+    let perc = 0
 
     function on(k){
         tick[k].style.color = 'rgb(213, 255, 213)'
@@ -22,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function(){
         capch = false
         numch = false
         ctrch = false
+        perc = 0
 
         for(let i=0; i<inp.value.length; i++){           
             let ch = inp.value.charCodeAt(i);
@@ -47,15 +50,17 @@ document.addEventListener('DOMContentLoaded', function(){
             }
         }
 
-        if(minch ){
+        if(minch){
             on(0)
+            perc += 25
         }
         else{
-            off(0)
+            off(0)            
         }
     
         if(capch){
             on(1)
+            perc += 25
         }
         else{
             off(1)
@@ -63,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
         if(numch){
             on(2)
+            perc += 25
         }
         else{
             off(2)
@@ -70,10 +76,19 @@ document.addEventListener('DOMContentLoaded', function(){
     
         if(ctrch){
             on(3)
+            perc += 25
         }
         else{
             off(3)
         }
-    }
 
+        if(inp.value.length == 0){
+            strength.style.display = 'none'
+        }
+        else{
+            strength.style.display = 'block'
+            strength.innerHTML = perc + '%'
+        }
+    }
+    
 })
