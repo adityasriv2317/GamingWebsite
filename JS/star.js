@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function(){
     let ratings = document.querySelectorAll(".rating");
 
     ratings.forEach(rate => {
         let star = rate.querySelectorAll(".s");
 
         star.forEach((st, vl) =>{
-            st.addEventListener("click", function() {
+            st.addEventListener("click", function(){
                 star.forEach(i => {
                     i.querySelector(".full").style.display = "none";
                 });
