@@ -40,9 +40,13 @@
     }
 }
 
-/* rate  */
+/* corousel & rate  */
 
 @media (max-width: 980px){
+
+    .gdata{
+        font-size: 5vw;
+    }
 
     .gcover .cgame img{
         width: 20vw;
@@ -73,9 +77,9 @@
     }
 
     .rategame .rgame img{
-        width: 20vw;
+        width: 40vw;
         height: 12vw;
-        margin: 0;
+        margin-right: 2vw;
     }
 
     .stardiv h1{
@@ -104,4 +108,9 @@
     .rgame .rating{
         float: right;
     }
+
+    .rgame .rdata{
+        font-size: 2vw
+    }
+
 }

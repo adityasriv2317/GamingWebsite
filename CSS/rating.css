@@ -1,9 +1,14 @@
 .stardiv{
     width: 88%;
     margin: 0 6% auto;
+
+    margin-right: 2vw;
     margin-bottom: 4vh;
 
     padding-bottom: 2vh;
+
+    padding-left: 2vw;
+    /* padding-right: 2vw; */
 
     background-color: rgba(34, 255, 0, 0.403);
     color: rgb(0, 0, 0);
@@ -34,7 +39,7 @@
 
 .rategame .rgame img{
     width: 20vw;
-    height: 22vh;
+    height: 12vw;
 
     border-radius: 0.5rem;
     box-shadow: 0 1px 10px black;
@@ -44,7 +49,7 @@
 }
 
 .rategame .rgame:last-child img{
-    margin-right: 0;
+    margin-right: 2vw;
 }
 
 .rgame .rdata{

@@ -7,7 +7,7 @@
 }
 
 .corousel h1{
-    margin: 2% 0 1% 7%;
+    margin: 2% 1% 1% 7%;
 
     font-weight: 400;
     color: white;
@@ -15,7 +15,7 @@
 }
 
 .cslide{
-    height: 45vh;
+    height: 23vw;
     position: relative;
     
 }
@@ -49,7 +49,7 @@
     z-index: 1;
 
     color: white;
-    font-size: 3em;
+    font-size: 5vw;
 }
 
 .cslide .clist .cgame.active{
