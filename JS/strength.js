@@ -1,0 +1,1 @@
+let inp = document.getElementById('upass')

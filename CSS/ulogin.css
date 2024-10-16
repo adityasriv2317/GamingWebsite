@@ -183,3 +183,30 @@ button:hover{
     background-color: transparent;
     cursor: pointer;
 }
+
+/* pass check */
+
+.pscheck h4{
+    font-size: 1.5vw;
+    color: white;
+    margin: 1vh 1vh auto;
+    margin-bottom: 0;
+}
+
+.pscheck{
+    color: rgb(210, 210, 210);
+}
+
+.pscheck ul{
+    padding-left: 0;
+}
+
+.pscheck li{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.str{
+    display: none;
+}
