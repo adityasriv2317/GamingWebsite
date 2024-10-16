@@ -44,7 +44,7 @@
 
 /* login box */
 
-@media (max-width: 900px) {
+@media (max-width: 1150px) {
     .getlogin{
         display: inline;
         margin: 2% 4% auto;
@@ -70,5 +70,9 @@
 
     #btm{
         margin-top: 5vh;
+    }
+
+    .pscheck h4{
+        margin-top: 3vh;
     }
 }
