@@ -30,8 +30,9 @@
             
             <div class="new">
                 <b>Register Now</b><hr><br>
-                <form action="#" class="nuser">
-                    <div class="a">
+
+                <form action="#logo" class="nuser">
+                    <div class="a n">
                         <label for="fname" id="inplabel">First Name</label>
                         <label for="lname" id="inplabel">Last Name</label>
                     </div>
@@ -42,7 +43,7 @@
                     </div> 
                     
                     <div class="a">
-                        <label for="umail" id="inplabel">Email ID</label>
+                        <label for="umail" id="inplabel">Email</label>
                         <input type="text" name="umail" id="umail"><br>
                     </div>
 
@@ -59,7 +60,7 @@
                         <input type="password" name="cpass" id="cpass"><br>
                     </div>
 
-                    <button id="btn">Sign Up</button>
+                    <button id="btn" type="button" formaction="#logo">Sign Up</button>
                 </form>
             </div>
     
@@ -68,11 +69,18 @@
             <div class="old">
                 <b>Already Registered?</b><hr><br>
                 <form action="#" class="ouser">
-                    <label for="omail" id="inplabel">Email ID</label><br>
-                    <input type="text" name="omail" id="omail"><br>
+                    <div class="a">
+                        <label for="omail" id="inplabel">Email ID</label>
+                        <input type="text" name="omail" id="omail"><br>
+                    </div>
 
                     <label for="opass" id="inplabel">Password</label><br>
-                    <input type="password" name="opass" id="opass"><br>
+                    <div class="a">
+                        <div class="pfield">
+                            <input type="password" name="opass" id="opass"><br>
+                            <img src="Images/eye.png" id="shpass" alt="show">
+                        </div>
+                    </div>
 
                     <button id="as">Login</button>
                 </form>
