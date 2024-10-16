@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function(){
         }
         else{
             strength.style.display = 'block'
-            strength.innerHTML = perc + '%'
+            strength.innerHTML = perc+'%'
         }
     }
     
