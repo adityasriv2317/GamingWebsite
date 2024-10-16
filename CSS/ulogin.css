@@ -120,6 +120,10 @@ button:hover{
     justify-content: space-around;
 }
 
+#mid{
+    display: none;
+}
+
 .a label{
     margin-top: 0;
     margin-left: 0;

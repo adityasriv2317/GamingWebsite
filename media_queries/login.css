@@ -1,0 +1,74 @@
+@media (max-width: 640px) {
+    /* header  */
+
+    .header{
+        padding: 1vh 5%;
+
+        padding-bottom: 0;
+
+        transition: 0.2s ease;
+        /* background-color: red; */
+    }
+
+    #liblink{
+        display: none;
+    }
+
+    .headright{
+        display: none;
+    }
+
+    #logoimg{
+        height: 6vh;
+        transition: 0.2s ease;
+    }
+
+    /* footer */
+
+    footer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .flinks{
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* justify-content: center; */
+    }
+
+    .flinks{
+        padding-left: 0;
+    }
+}
+
+/* login box */
+
+@media (max-width: 900px) {
+    .getlogin{
+        display: inline;
+        margin: 2% 4% auto;
+
+    }    
+
+    .bgm{
+        padding: 0 12vw;
+
+        z-index: 10;
+    }
+
+    #upline{
+        margin-bottom: 5vh;
+    }
+
+    #mid{
+        display: block;
+        
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    #btm{
+        margin-top: 5vh;
+    }
+}
