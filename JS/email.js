@@ -27,6 +27,15 @@ document.addEventListener('DOMContentLoaded', function(){
                         break
                     }
                 }
+
+                if(ch == 46){
+                    if(sym && d<=i){
+                        continue
+                    }
+                    else{
+                        break
+                    }
+                }
             }
 
             if(sym == false){
