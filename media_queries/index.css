@@ -40,8 +40,68 @@
     }
 }
 
-/* corousel */
+/* rate  */
 
-@media (max-width: 640px){
+@media (max-width: 980px){
 
+    .gcover .cgame img{
+        width: 20vw;
+        height: 12vw;
+    }
+
+    .corousel{
+        margin-bottom: 2vh;
+    }
+
+    .stardiv{
+        display: inline-block;
+
+        margin: 2vh 0 2vh 0;
+
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+    .rategame{
+        flex-wrap: wrap;
+        display: inline;
+
+        margin-top: 2vw;
+    }
+
+    .rategame .rgame {
+        width: 100%;
+    }
+
+    .rategame .rgame img{
+        width: 20vw;
+        height: 12vw;
+        margin: 0;
+    }
+
+    .stardiv h1{
+        font-size: 4vw;
+        align-items: center;
+        display: inline;
+
+        margin: 1% 0 0 1%;
+        /* padding-top: 2vh;
+        padding-bottom: 1%; */
+
+    }
+
+    .s{
+        margin-bottom: 2vh;
+    }
+
+    .s:last-child{
+        margin-bottom: 0;
+    }
+
+    .rgame{
+        display: flex;
+    }
+
+    .rgame .rating{
+        float: right;
+    }
 }
