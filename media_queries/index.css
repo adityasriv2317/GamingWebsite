@@ -38,6 +38,10 @@
     .flinks{
         padding-left: 0;
     }
+
+    .corousel h1{
+        font-size: 4vw;
+    }
 }
 
 /* corousel & rate  */
@@ -64,10 +68,12 @@
 
         padding-top: 2%;
         padding-left: 2%;
+
+        max-width: 85%;
+
     }
     .rategame{
         flex-wrap: wrap;
-        display: inline;
 
         margin-top: 2vw;
     }
@@ -93,10 +99,6 @@
 
     }
 
-    .s{
-        margin-bottom: 2vh;
-    }
-
     .s:last-child{
         margin-bottom: 0;
     }
@@ -109,8 +111,15 @@
         float: right;
     }
 
-    .rgame .rdata{
-        font-size: 2vw
+    .rdata{
+        width: 60%;
+        height: 40%;
+    }
+
+    .rating{
+        height: 50%;
+        width: 30%;
+        bottom: 0;
     }
 
 }

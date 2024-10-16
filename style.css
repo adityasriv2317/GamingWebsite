@@ -127,3 +127,11 @@ footer{
 .flinks li{
     list-style: none;
 }
+
+.corousel h1{
+    text-shadow: 0 0 3px white;
+}
+
+.stardiv h1{
+    text-shadow: 0 0 6px black;
+}
