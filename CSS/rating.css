@@ -78,7 +78,9 @@
     height: 3vh;
 
     box-shadow: none;
-    /* object-fit: cover; */
+
+    cursor: pointer;
+    object-fit: contain;
 }
 
 .s{
